@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crems Website</title>
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <!-- Devicon CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <!-- BootStrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+
+<header class="header">
+    <nav class="navbar navbar-expand-lg fixed-top" data-bs-the="dark">
+        <div class="container-fluid">
+
+            <a class="navbar-brand" href="index.html" style="margin-left: 100px;">
+                <img src="images/logo.png" alt="Brand Logo">
+            </a>
+
+            <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse"
+                data-bs-target="#mainMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" style="margin-right: 100px;" id="mainMenu">
+                <ul class="navbar-nav gap-5">
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="index.html">Home</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item fw-medium" href="index.html">Chocolate Candy</a></li>
+                            <li><a class="dropdown-item fw-medium" href="craft-bakery.html">Craft Bakery</a></li>
+                            <li><a class="dropdown-item fw-medium" href="handmade-cakes.html">Handmade Cakes</a></li>
+                            <li><a class="dropdown-item fw-medium" href="craft-pastry-cafe.html">Craft Pastry Cafe</a>
+                            </li>
+                            <li><a class="dropdown-item fw-medium" href="parallax-showcase.html">Parallax Showcase</a>
+                            </li>
+                            <li><a class="dropdown-item fw-medium" href="craft-sweet-delicious.html">Craft Sweet
+                                    Delicious</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="about.html">About Us</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item fw-medium" href="about-us.html">About Us</a></li>
+                            <li><a class="dropdown-item fw-medium" href="our-services.html">Our Services</a></li>
+                            <li><a class="dropdown-item fw-medium" href="testimonials.html">Testimonials</a></li>
+                            <li><a class="dropdown-item fw-medium" href="faq.html">FAQ</a></li>
+                            <li><a class="dropdown-item fw-medium" href="gallery.html">Gallery</a></li>
+                            <li><a class="dropdown-item fw-medium" href="404.html">404 Page</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="products.html">Products</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item fw-medium" href="shop.html">Shop</a></li>
+                            <li><a class="dropdown-item fw-medium" href="cart.html">Cart</a></li>
+                            <li><a class="dropdown-item fw-medium" href="#">Checkout</a></li>
+                            <li><a class="dropdown-item fw-medium" href="#">My Account</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contacts</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+</header>
+
+
+<main>
+
+    <!-- Banner Section -->
+    <section class="banner">
+        <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="6000"
+            data-bs-pause="false">
+
+            <div class="carousel-inner">
+
+                <!-- Slide 1 -->
+                <div class="carousel-item active">
+                    <div class="banner-img" style="background-image:url('images/banner-1.png')"></div>
+                    <div class="carousel-caption">
+                        <h1>Author's Delicious Sweet <br> <span>and Chocolate</span></h1>
+                        <p>Step into our café and experience the comfort of rich aromas, fresh flavors, and a welcoming
+                            atmosphere. We believe great coffee and handcrafted treats have the power to brighten your
+                            day.</p>
+                        <a href="#" class="btn">Explore Products</a>
+                    </div>
+                </div>
+
+                <!-- Slide 2 -->
+                <div class="carousel-item">
+                    <div class="banner-img" style="background-image:url('images/banner-2.png')"></div>
+                    <div class="carousel-caption">
+                        <h1>Author's Delicious Sweet <br> <span>and Chocolate</span></h1>
+                        <p>Step into our café and experience the comfort of rich aromas, fresh flavors, and a welcoming
+                            atmosphere. We believe great coffee and handcrafted treats have the power to brighten your
+                            day.</p>
+                        <a href="#" class="btn">Our Story</a>
+                    </div>
+                </div>
+
+                <!-- Slide 3 -->
+                <div class="carousel-item">
+                    <div class="banner-img" style="background-image:url('images/banner-3.png')"></div>
+                    <div class="carousel-caption">
+                        <h1>Author's Delicious Sweet <br> <span>and Chocolate</span></h1>
+                        <p>Step into our café and experience the comfort of rich aromas, fresh flavors, and a welcoming
+                            atmosphere. We believe great coffee and handcrafted treats have the power to brighten your
+                            day.</p>
+                        <a href="#" class="btn">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- Luxury Section -->
+    <section class="luxury-section py-5">
+        <div class="row align-items-center mx-5 my-5">
+
+            <div class="col-lg-3 col-12 text-light">
+                <h2 class="title">
+                    Our patisserie produces <br>
+                    <span>unique sweets</span> for lovers <br> of yummy
+                </h2>
+
+                <p class="desc mt-4">
+                    Curabitur tortor ante, vestibulum vel lacus id, semper malesuada sem. Sed sit amet tortor augue.
+                    Integer magna neque
+                </p>
+
+                <a href="#" class="download-link">
+                    <i class="fa-solid fa-file-arrow-down"></i><span class="text-light"> Download Price</span>
+                </a>
+                <br>
+
+                <a href="#" class="read-more">READ MORE →</a>
+            </div>
+
+            <div class="col-lg-6 col-12 text-center">
+                <div class="product-box">
+                    <img src="images/luxury.png" class="img-fluid" alt="Chocolate Box">
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-12 text-light features">
+
+                <div class="feature-item">
+                    <i class="fa-brands fa-pagelines me-3"></i>
+                    <div>
+                        <h4>Natural Organic Product</h4>
+                        <p>Vivamus vel magna non mi gravida ultr sed ut turpis.</p>
+                    </div>
+                </div>
+
+                <div class="feature-item">
+                    <i class="fa-solid fa-gift me-2"></i>
+                    <div>
+                        <h4>Packaging Design</h4>
+                        <p>Praesent sit amet fringilla eros. Nunc pulv dui tellus.</p>
+                    </div>
+                </div>
+
+                <div class="feature-item">
+                    <i class="fa-solid fa-seedling me-2"></i>
+                    <div>
+                        <h4>Best Quality Cocoa</h4>
+                        <p>Cras in laoreet metus, vitae efficitur libero. Nam sit amet orci.</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Unique Section -->
+    <section class="unique py-5">
+        <div class="unique-bg"></div>
+        <div class="rotating3-box"></div>
+        <div class="container h-100">
+            <div class="row h-100 justify-content-center text-center align-items-center">
+                <div class="col-12 text-light">
+                    <h2>
+                        Made with love <br>
+                        <span>unique sweets</span> for gourmet
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Store Section -->
+    <section class="store">
+        <div class="title">
+            <div class="container text-center">
+                <span class="title-sub">ONLINE STORE</span>
+                <h2 class="title-main">Discover Sweet Delicious</h2>
+            </div>
+        </div>
+
+        <div class="row gy-5 mx-5">
+
+            <div class="col-lg-3 col-md-6 col-12 my-5">
+                <div class="product-card">
+                    <div class="dots"></div>
+                    <img src="images/store-1.png" class="img-fluid product-img">
+                    <a href="#" class="btn btn-outline-gold add-cart">ADD TO CART</a>
+                    <h5>Milk Chocolate With Peanuts</h5>
+                    <div class="price">$42.49</div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-12 my-5">
+                <div class="product-card">
+                    <div class="dots"></div>
+                    <img src="images/store-2.png" class="img-fluid product-img">
+                    <a href="#" class="btn btn-outline-gold add-cart">ADD TO CART</a>
+                    <h5>Pastry Chef Fantasy</h5>
+                    <div class="price">$13.49</div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-12 my-5">
+                <div class="product-card">
+                    <div class="dots"></div>
+                    <img src="images/store-3.png" class="img-fluid product-img">
+                    <a href="#" class="btn btn-outline-gold add-cart">ADD TO CART</a>
+                    <h5>Truffle With Vanilla</h5>
+                    <div class="price">$25.00</div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-12 my-5">
+                <div class="product-card">
+                    <div class="dots"></div>
+                    <img src="images/store-4.png" class="img-fluid product-img">
+                    <a href="#" class="btn btn-outline-gold add-cart">ADD TO CART</a>
+                    <h5>Almond Dark Chocolate</h5>
+                    <div class="price">
+                        <span class="old">$12.99</span>
+                        <span style="color:#ff3b3b;">$11.49</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Video Section -->
+    <section class="video-section">
+        <div class="video-content">
+            <h1>Watch our video</h1>
+            <div class="play-btn">
+                <i class="fa-solid fa-play"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- Store Stat Section -->
+    <section class="store-stats">
+        <div class="container">
+            <div class="row align-items-center">
+
+                <div class="col-lg-3 col-md-6 col-12 my-5">
+                    <div class="stat-box">
+                        <h2>230</h2>
+                        <p>Pastry Shops</p>
+                        <span class="divider"></span>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-12 my-5">
+                    <div class="stat-box">
+                        <h2>26</h2>
+                        <p>Candies Collections</p>
+                        <span class="divider"></span>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-12 my-5">
+                    <div class="stat-box">
+                        <h2>14</h2>
+                        <p>Years of Experience</p>
+                        <span class="divider"></span>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-12 my-5">
+                    <div class="stat-box">
+                        <h2>80</h2>
+                        <p>Creative Pastry Chefs</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Chef Section -->
+    <section class="chef">
+        <div class="container-fluid">
+            <div class="row g-0">
+                <div class="col-lg-6 chef-left"></div>
+
+                <div class="col-lg-6 chef-right">
+                    <img src="images/chef-1.png" class="chef-img img-fluid" alt="Chef">
+
+                    <div class="content mx-auto my-5">
+                        <small>OUR MISSION</small>
+                        <h2>
+                            “Making chocolates is an art that we have perfected over the years to make our customers
+                            happy”
+                        </h2>
+                        <div class="chef-name-wrap">
+                            <div class="name justify-content-space-between">
+                                Orlando Decters<br>
+                                <span style="color:#fff; font-family: sans-serif; font-size : 12px;">PASTRY
+                                    CHEF</span>
+                            </div>
+                            <img src="images/signature'.png" class="chef-signature" alt="Signature">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonial Section -->
+    <section class="testimonial-card">
+        <div class="title">
+            <div class="container text-center">
+                <span class="title-sub">TESTIMONIALS</span>
+                <h2 class="title-main">What our Buyers Say</h2>
+            </div>
+        </div>
+
+        <div class="container">
+
+            <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0"
+                        class="active"></button>
+                    <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="2"></button>
+                </div>
+
+                <div class="carousel-inner">
+
+                    <!-- ITEM 1 -->
+                    <div class="carousel-item active">
+                        <div class="testimonial-card-box">
+                            <p>
+                                Morbi viverra volutpat ex, id pellentesque felis volutpat eu. Duis et tellus imperdiet,
+                                lacinia risus id, tincidunt ipsum. Integer euismod elit vel nibh commodo, at consequat
+                                nisl rhoncus. Etiam mattis.
+                            </p>
+                        </div>
+                        <div class="testimonial-card-user">
+                            <img src="images/testimonial-1.jpg">
+                            <h5>Stefanie Rashford</h5>
+                            <span>Freelancer</span>
+                        </div>
+                    </div>
+
+                    <!-- ITEM 2 -->
+                    <div class="carousel-item">
+                        <div class="testimonial-card-box">
+                            <p>
+                                Maecenas ultricies felis libero scelerisque, ut eleifend leo mattis. Aliquam
+                                porta facilisis metus. Pellentesque habitant morbi tristique senectus et netus et
+                                malesuada fames ac turpis egestas.
+                            </p>
+                        </div>
+                        <div class="testimonial-card-user">
+                            <img src="images/testimonial-2.jpg">
+                            <h5>Hugo James</h5>
+                            <span>Manager</span>
+                        </div>
+                    </div>
+
+                    <!-- ITEM 3 -->
+                    <div class="carousel-item">
+                        <div class="testimonial-card-box">
+                            <p>
+                                Nullam orci dui, dictum et magna sollicitudin, tempor blandit erat. Maecenas suscipit
+                                tellus sit amet augue placerat fringilla a id lacus. Fusce tincidunt in leo lacinia
+                                condimentum. Donec placerat, orci.
+                            </p>
+                        </div>
+                        <div class="testimonial-card-user">
+                            <img src="images/testimonial-3.jpg">
+                            <h5>Cassie Carleton</h5>
+                            <span>Designer</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pastry Section -->
+    <section class="pastry">
+        <div class="pastry text-center">
+            <div class="container">
+                <div class="subtitle">GALLERY</div>
+                <h2>“Our pastry chefs create sweets only<br>with creativity and love”</h2>
+            </div>
+        </div>
+
+        <div class="pastry-cards">
+            <div class="container">
+                <div class="row g-4 justify-content-center">
+
+                    <div class="col-md-3">
+                        <div class="pastry-card">
+                            <img src="images/pastry-1.jpg">
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="pastry-card">
+                            <img src="images/pastry-2.jpg">
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="pastry-card">
+                            <img src="images/pastry-3.jpg">
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="pastry-card">
+                            <img src="images/pastry-4.jpg">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<!-- Footer Section -->
+<footer class="footer">
+    <div class="container">
+        <div class="row g-5">
+
+            <div class="col-lg-4 col-md-6 col-12 mx-auto my-4">
+                <div class="footer-logo mb-4">
+                    <img src="images/logo.png" style="width: 100px;" alt="logo">
+                </div>
+                <p class="mt-3">
+                    Etiam consequat sem ullamcorper, euismod
+                    metus sit amet, tristique justo. Vestibulum
+                    mattis, nisi ut.
+                </p>
+
+                <div class="footer-social mt-3">
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-12 mx-auto my-4">
+                <h4 class="footer-title">Explore</h4>
+                <ul class="list-unstyled footer-contact">
+                    <li><i class="fa-solid fa-phone"></i> +49078-039-23-11</li>
+                    <li><i class="fa-solid fa-location-dot"></i> 975 Liberty Ave, Union, NJ</li>
+                    <li><i class="fa-solid fa-envelope"></i> crems@like-themes.com</li>
+                </ul>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-12 mx-auto my-4">
+                <h4 class="footer-title">Latest Posts</h4>
+
+                <div class="footer-post">
+                    <img src="images/footer-1.jpg">
+                    <div>
+                        <small>CRAFT FOOD</small><br>
+                        <a href="#">Rent of Equipment for Pastry Shops</a>
+                    </div>
+                </div>
+
+                <div class="footer-post">
+                    <img src="images/footer-2.jpg">
+                    <div>
+                        <small>CRAFT FOOD</small><br>
+                        <a href="#">Secrets of Choosing Cocoa Powder</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            Like-themes © All Rights Reserved - <span>2020</span>
+        </div>
+
+    </div>
+</footer>
+
+
+<!-- Scroll to top -->
+<div class="scroll-top" id="scrollTop">
+    <i class="fa-solid fa-arrow-up"></i>
+</div>
+
+<!-- BootStrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Scroll Btn -->
+<script>
+    const scrollBtn = document.getElementById('scrollTop');
+
+    window.addEventListener('scroll', () => {
+        scrollBtn.style.display = window.scrollY > 300 ? 'flex' : 'none';
+    });
+
+    scrollBtn.addEventListener('click', () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+</script>
+</body>
+
+</html>
